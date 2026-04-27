@@ -1,6 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/rust:1-bullseye",
   "features": {},
+  "postCreateCommand": "apt-get update && apt-get install -y libssl-dev pkg-config",
   "customizations": {
     "vscode": {
       "extensions": [
