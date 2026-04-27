@@ -1405,6 +1405,7 @@ dependencies = [
  "dotenv",
  "env_logger",
  "fastembed",
+ "itertools",
  "log",
  "tree-sitter",
  "tree-sitter-java",
